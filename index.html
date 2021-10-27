@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head> 
+<link rel="stylesheet" text="text/css" href="style.css"> 
+<title>Ann's Life</title>
+
+	<!--- Information you don't want to display to users --> 
+
+</head>
+
+	<body>
+		<!--- Enter code below this comment. Remember all code you want to display to users needs to be between the <body> tags --> 
+
+			<header> 
+			<h1 style="font-size: 30px;">Ann Kerr</h1> 
+			
+			
+
+			<div class="container">
+ 			<img class="mySlides" src="IMG_5345.jpg" alt="Ann with her AKPsi Pledge Class" title="Ann with her AKPsi Pledge Class" 
+			  style="width:100%">
+			<img class="mySlides" src="IMG_6413.jpg" alt="Ann on Badger Game Day" title="Ann on Badger Game Day"
+			  style="width:100%" >
+			  <img class="mySlides" src="fun.jpg" alt="Ann at Lollapalooza" title="Ann at Lollapalooza"
+			  style="width:100%" >
+			  <img class="mySlides" src="work.jpg" alt="Ann at Turnstyle Cycle" title="Ann at Turnstyle Cycle"
+			  style="width:100%">
+			  <img class="mySlides" src="brother.jpg" alt="Ann with her Brother" title="Ann with her Brother"
+			  style="width:100%">
+			  <img class="mySlides" src="IMG_2755.jpg" alt="Ann in Library Mall" title="Ann in Library Mall"
+			  style="width:100%">
+
+
+			<div class="centered">
+				
+			<h2 style="color:#66fcf1;" style="font-size: 100px;">Welcome to my World</h2>
+
+			<h3 style="color:lightgray;" style="font-size: 80px;"> Explore Ann Kerr's Life! </h3>
+
+			<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="school.html">School</a></li>
+				<li><a href="work.html">Work</a></li>
+				<li><a href="fun.html">Fun</a></li>
+				<li><a href="https://ann-kerr.com">Portfolio</a></li>
+				<li><a href="aboutme.html">About Me</a></li>
+			</ul>
+			</nav>
+
+			</div>
+
+			</div>
+			
+			</header>
+
+			<section>
+
+
+  			<script>
+		
+			// Automatic Slideshow - change image every 3 seconds
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  for (i = 0; i < x.length; i++) {
+			     x[i].style.display = "none";
+			  }
+			  myIndex++;
+			  if (myIndex > x.length) {myIndex = 1}
+			  x[myIndex-1].style.display = "block";
+			  setTimeout(carousel, 2000);
+			}
+
+
+			</script>
+
+			</section>
+
+
+			<footer> 
+			<h4>&copy; Copyright 2021</h4>
+			</footer>
+	</body>
+
+</html>
